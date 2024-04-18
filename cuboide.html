@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cubóide</title>
+    <link rel="icon" href="imagens/image-removebg-preview (6).png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="titulo">Aventura Geométrica</h1>
+      <nav>
+        <ul class="menu">
+          <li><a class="inicio" href="index.html">Inicio</a></li>
+          <li>
+            <a class="formas" href="index.html#formas-geometricas"
+              >Formas Geométricas</a
+            >
+          </li>
+          <li><a class="sobre" href="sobre.html">Sobre</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div>
+      <h1 class="titulo-forma">Cubóide</h1>
+      <h2 class="subtitulo-forma">Aresta de um Cubóide - Fórmula</h2>
+      <p class="conteudo-forma">
+        A aresta de um cubóide é a medida da distância de um dos seus vértices a
+        um vértice oposto em cada uma das três dimensões: comprimento (l),
+        largura (w) e altura (h). Essas medidas são fundamentais na geometria e
+        são utilizadas em diversas fórmulas relacionadas aos cubóides.
+        Geralmente, as arestas são representadas pelas letras "l", "w" e "h".
+        Podemos usar as arestas para calcular o volume, a área da superfície e a
+        diagonal do cubóide. Da mesma forma, podemos utilizar esses valores para
+        calcular o comprimento das arestas.
+      </p>
+      <p class="conteudo-forma">
+        A seguir, vamos conhecer as fórmulas mais comuns do cubóide que se
+        relacionam com as arestas. Além disso, aprenderemos a calcular o
+        comprimento das arestas usando essas fórmulas.
+      </p>
+      <h2 class="subtitulo-forma">Fórmula das arestas usando volume</h2>
+      <p class="conteudo-forma">
+        Se conhecermos o volume de um cubóide, podemos encontrar o comprimento
+        das arestas usando a seguinte expressão:
+      </p>
+      <p class="conteudo-forma">V = l * w * h</p>
+      <p class="conteudo-forma">
+        onde, V é o volume, l é o comprimento, w é a largura e h é a altura.
+      </p>
+      <h2 class="subtitulo-forma">
+        Fórmula das arestas usando área da superfície
+      </h2>
+      <p class="conteudo-forma">
+        Se conhecermos a área da superfície de um cubóide, podemos encontrar o
+        comprimento das arestas usando a seguinte fórmula:
+      </p>
+      <p class="conteudo-forma">A = 2lw + 2wh</p>
+      <p class="conteudo-forma">
+        onde, A é a área da superfície, l é o comprimento, w é a largura e h é a altura.
+      </p>
+      <h2 class="subtitulo-forma">Fórmula das arestas usando diagonal</h2>
+      <p class="conteudo-forma">Podemos usar a diagonal para calcular o comprimento das arestas usando a seguinte expressão:</p>
+      <p class="conteudo-forma">
+        d = √(l² + w² + h²)
+      </p>
+      <p class="conteudo-forma">onde, d é a diagonal, l é o comprimento, w é a largura e h é a altura.</p>
+      <h2 class="subtitulo-forma">
+        Fórmula das arestas usando áreas
+      </h2>
+      <p class="conteudo-forma">Podemos usar as áreas para calcular as arestas usando as seguintes expressões:</p>
+      <p class="conteudo-forma">
+        l = √(A / (2w + 2h))
+        <br>
+        w = √(A / (2l + 2h))
+        <br>
+        h = √(A / (2l + 2w))
+        <p class="conteudo-forma">onde, l, w e h são as arestas, e A é a área da superfície.</p>
+    </p>
+    </div>
+    <div class="formula">
+      <img
+        class="imagem-formula"
+        src="imagens/image-removebg-preview (6).png"
+        alt="Cubóide"
+      />
+      <h2 class="calculo">Calcular Área do Cubóide</h2>
+      <label for="comprimento">Comprimento:</label>
+      <input type="number" id="comprimento" placeholder="Insira o comprimento" />
+      <label for="largura">Largura:</label>
+      <input type="number" id="largura" placeholder="Insira a largura" />
+      <label for="altura">Altura:</label>
+      <input type="number" id="altura" placeholder="Insira a altura" />
+      <button class="calculo-formula" onclick="calcularAreaCuboide()">
+        Calcular Área
+      </button>
+      <p id="resultado"></p>
+    </div>
+    <footer>
+      <p>© 2024 Aventura Geométrica</p>
+    </footer>
+    <script src="cuboide.js"></script>
+  </body>
+</html>

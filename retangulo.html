@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Retângulo</title>
+    <link rel="icon" href="imagens/image-removebg-preview (2).png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="titulo">Aventura Geométrica</h1>
+      <nav>
+        <ul class="menu">
+          <li><a class="inicio" href="index.html">Inicio</a></li>
+          <li>
+            <a class="formas" href="index.html#formas-geometricas"
+              >Formas Geométricas</a
+            >
+          </li>
+          <li><a class="sobre" href="sobre.html">Sobre</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div>
+      <h1 class="titulo-forma">Retângulo</h1>
+      <h2 class="subtitulo-forma">Base e Altura de um Retângulo - Fórmula</h2>
+      <p class="conteudo-forma">
+        A base e a altura de um retângulo são medidas fundamentais na geometria,
+        definindo suas dimensões e área. Geralmente, a base é representada pela
+        letra "b" e a altura pela letra "h". Essas medidas são utilizadas em
+        diversas fórmulas relacionadas aos retângulos. Podemos usar a base e a
+        altura para calcular o perímetro, a diagonal e a área do retângulo. Da
+        mesma forma, podemos utilizar esses valores para calcular o comprimento
+        da base e da altura.
+      </p>
+      <p class="conteudo-forma">
+        A seguir, vamos conhecer as fórmulas mais comuns do retângulo que se
+        relacionam com a base e a altura. Além disso, aprenderemos a calcular o
+        comprimento da base e da altura usando essas fórmulas.
+      </p>
+      <h2 class="subtitulo-forma">
+        Fórmula para a base e altura de um retângulo
+      </h2>
+      <p class="conteudo-forma">
+        A base e a altura de um retângulo são as medidas que definem sua área e
+        demais propriedades. Usando o comprimento da base e da altura, podemos
+        calcular o perímetro, a diagonal e a área do retângulo. Da mesma forma,
+        podemos utilizar essas expressões para encontrar a base e a altura.
+      </p>
+      <h2 class="subtitulo-forma">Fórmula da base e altura usando perímetro</h2>
+      <p class="conteudo-forma">
+        Se tivermos o perímetro de um retângulo, podemos encontrar o comprimento
+        da base e da altura usando as seguintes expressões:
+      </p>
+      <p class="conteudo-forma">P = 2b + 2h</p>
+      <p class="conteudo-forma">
+        onde, P é o perímetro, b é o comprimento da base e h é o comprimento da
+        altura.
+      </p>
+      <h2 class="subtitulo-forma">Fórmula da base e altura usando diagonal</h2>
+      <p class="conteudo-forma">
+        Se conhecermos o comprimento da diagonal de um retângulo, podemos
+        encontrar o comprimento da base e da altura usando as seguintes
+        fórmulas:
+      </p>
+      <p class="conteudo-forma">d = √(b² + h²)</p>
+      <p class="conteudo-forma">
+        onde, d é o comprimento da diagonal, b é o comprimento da base e h é o comprimento da altura.
+      </p>
+      <h2 class="subtitulo-forma">Fórmula da base e altura usando área</h2>
+      <p class="conteudo-forma">
+        Podemos usar a área para calcular o comprimento da base e da altura usando a seguinte expressão:
+      </p>
+      <p class="conteudo-forma">A = b * h</p>
+      <p class="conteudo-forma">
+        onde, A é a área do retângulo, b é o comprimento da base e h é o comprimento da altura.
+      </p>
+    </div>
+    <div class="formula">
+      <img
+        class="imagem-formula"
+        src="imagens/image-removebg-preview (2).png"
+        alt="Retângulo"
+      />
+      <h2 class="calculo">Calcular Área do Retângulo</h2>
+      <label for="base">Base:</label>
+      <input type="number" id="base" placeholder="Insira a base" />
+      <label for="altura">Altura:</label>
+      <input type="number" id="altura" placeholder="Insira a altura">
+      <button class="calculo-formula" onclick="calcularAreaRetangulo()">
+        Calcular Área
+      </button>
+      <p id="resultado"></p>
+    </div>
+    <footer>
+      <p>© 2024 Aventura Geométrica</p>
+    </footer>
+    <script src="retangulo.js"></script>
+  </body>
+</html>

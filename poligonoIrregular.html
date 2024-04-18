@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poligono Irregular N Lados</title>
+    <link rel="icon" href="imagens/image-removebg-preview (5).png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="titulo">Aventura Geométrica</h1>
+      <nav>
+        <ul class="menu">
+          <li><a class="inicio" href="index.html">Inicio</a></li>
+          <li>
+            <a class="formas" href="index.html#formas-geometricas"
+              >Formas Geométricas</a
+            >
+          </li>
+          <li><a class="sobre" href="sobre.html">Sobre</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div>
+      <h1 class="titulo-forma">Polígono Regular com N Lados</h1>
+      <p class="conteudo-forma">
+        Um polígono regular com N lados é uma figura geométrica composta por N
+        segmentos de reta, onde todos os lados têm o mesmo comprimento e todos
+        os ângulos internos são iguais. Exemplos comuns incluem o pentágono (5
+        lados), hexágono (6 lados), heptágono (7 lados), entre outros. Essas
+        formas são essenciais na geometria e na arquitetura, sendo utilizadas em
+        construções de edifícios, design de objetos e em muitos outros campos.
+      </p>
+      <h2 class="subtitulo-forma">
+        Fórmulas Trigonométricas para Cálculo da Área
+      </h2>
+      <p class="conteudo-forma">
+        Para calcular a área de um polígono regular com N lados, podemos dividir
+        o polígono em triângulos com um vértice central. O vértice central é
+        conectado aos vértices do polígono, criando N triângulos congruentes. Em
+        seguida, utilizamos fórmulas trigonométricas para calcular a área de
+        cada triângulo e somamos todas as áreas para obter a área total do
+        polígono.
+      </p>
+      <h2 class="subtitulo-forma">Escolha do Polígono e Cálculo da Área</h2>
+      <p class="conteudo-forma">
+        Ao selecionar um polígono regular com um número variável de lados, como
+        o pentágono, hexágono ou heptágono, podemos calcular sua área usando as
+        fórmulas trigonométricas apropriadas. Por exemplo, para um pentágono,
+        dividimos o polígono em cinco triângulos congruentes usando as diagonais
+        a partir do vértice central. Em seguida, aplicamos as fórmulas
+        trigonométricas para calcular a área de cada triângulo e somamos as
+        áreas para obter a área total do pentágono.
+      </p>
+      <p class="conteudo-forma">
+        Essa abordagem nos permite calcular a área de polígonos regulares com
+        qualquer número de lados, facilitando a análise e o projeto de formas
+        geométricas em diversas aplicações.
+      </p>
+    </div>
+    <div class="formula">
+      <img
+        class="imagem-formula"
+        src="imagens/image-removebg-preview (5).png"
+        alt="Polígono Regular"
+      />
+      <h2 class="calculo">Calcular Área do Polígono Regular</h2>
+      <label for="lado">Comprimento do Lado:</label>
+      <input type="number" id="lado" placeholder="Insira o comprimento do lado" />
+      <label for="lados">Número de Lados: <br>(mínimo 3)</label>
+      <input type="number" id="lados" placeholder="Insira o número de lados" />
+      <button class="calculo-formula" onclick="calcularAreaPoligono()">
+        Calcular Área
+      </button>
+      <p id="resultado"></p>
+    </div>
+    <footer>
+      <p>© 2024 Aventura Geométrica</p>
+    </footer>
+    <script src="poligonoIrregular.js"></script>
+  </body>
+</html>

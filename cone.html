@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cone</title>
+    <link rel="icon" href="imagens/image-removebg-preview (7).png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="titulo">Aventura Geométrica</h1>
+      <nav>
+        <ul class="menu">
+          <li><a class="inicio" href="index.html">Inicio</a></li>
+          <li>
+            <a class="formas" href="index.html#formas-geometricas"
+              >Formas Geométricas</a
+            >
+          </li>
+          <li><a class="sobre" href="sobre.html">Sobre</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div>
+      <h1 class="titulo-forma">Cone</h1>
+      <h2 class="subtitulo-forma">Raio da Base de um Cone - Fórmula</h2>
+      <p class="conteudo-forma">
+        O raio da base de um cone é a medida do segmento de reta que vai do
+        centro da base até qualquer ponto da circunferência da base. É um
+        elemento crucial na geometria do cone e é utilizado em diversas fórmulas
+        relacionadas a essa figura geométrica. Normalmente, o raio da base é
+        representado pela letra "r". Podemos usar o raio da base para calcular o
+        volume, a área da superfície e outras medidas importantes do cone.
+      </p>
+      <p class="conteudo-forma">
+        A seguir, vamos conhecer as fórmulas mais comuns do cone que se
+        relacionam com o raio da base. Além disso, aprenderemos a calcular o
+        comprimento do raio da base usando essas fórmulas.
+      </p>
+      <h2 class="subtitulo-forma">Fórmula para o raio da base de um cone</h2>
+      <p class="conteudo-forma">
+        O raio da base de um cone é a medida do segmento de reta que vai do
+        centro da base até qualquer ponto da circunferência da base. Usando o
+        comprimento do raio da base, podemos calcular o volume, a área da
+        superfície e outras medidas relacionadas ao cone. Da mesma forma,
+        podemos utilizar essas expressões para encontrar o raio da base.
+      </p>
+      <h2 class="subtitulo-forma">Fórmula do raio da base usando altura</h2>
+      <p class="conteudo-forma">
+        Se tivermos a altura de um cone, podemos encontrar o comprimento do raio da base usando a seguinte expressão:
+      </p>
+      <p class="conteudo-forma">r = √3V/πh</p>
+      <p class="conteudo-forma">
+        onde V é o volume do cone e h é a altura.
+      </p>
+      <h2 class="subtitulo-forma">Fórmula do raio da base usando área da superfície</h2>
+      <p class="conteudo-forma">
+        Podemos usar a área da superfície para calcular o raio da base usando a seguinte expressão:
+      </p>
+      <p class="conteudo-forma">r = √Aπ/πh + √A²π² - A²h² </p>
+      <p class="conteudo-forma">
+        onde A é a área da superfíce do cone e h é a altura.
+    </div>
+    <div class="formula">
+      <img
+        class="imagem-formula"
+        src="imagens/image-removebg-preview (7).png"
+        alt="Cone"
+      />
+      <h2 class="calculo">Calcular Raio da Base do Cone</h2>
+      <label for="base">Altura do Cone:</label>
+      <input type="number" id="altura" placeholder="Insira a altura" />
+      <label for="volume">Volume do Cone:</label>
+      <input type="number" id="volume" placeholder="Insira o volume" />
+      <button class="calculo-formula" onclick="calcularRaioBase()">
+        Calcular Raio da Base
+      </button>
+      <p id="resultado"></p>
+    </div>
+    <footer>
+      <p>© 2024 Aventura Geométrica</p>
+    </footer>
+    <script src="cone.js"></script>
+  </body>
+</html>

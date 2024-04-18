@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trapezóide Irregular</title>
+    <link rel="icon" href="imagens/image-removebg-preview (4).png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="titulo">Aventura Geométrica</h1>
+      <nav>
+        <ul class="menu">
+          <li><a class="inicio" href="index.html">Inicio</a></li>
+          <li>
+            <a class="formas" href="index.html#formas-geometricas"
+              >Formas Geométricas</a
+            >
+          </li>
+          <li><a class="sobre" href="sobre.html">Sobre</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div>
+      <h1 class="titulo-forma">Trapezóide Irregular</h1>
+      <h2 class="subtitulo-forma">
+        Bases e Altura de um Trapézio Irregular - Fórmula
+      </h2>
+      <p class="conteudo-forma">
+        As bases e a altura de um trapézio irregular são medidas fundamentais na
+        geometria, definindo suas dimensões e área. Geralmente, as bases são
+        representadas pelas letras "b1" e "b2", e a altura pela letra "h". Essas
+        medidas são utilizadas em diversas fórmulas relacionadas aos trapézios.
+        Podemos usar as bases e a altura para calcular a área do trapézio. Da
+        mesma forma, podemos utilizar esses valores para calcular o comprimento
+        das bases.
+      </p>
+      <p class="conteudo-forma">
+        A seguir, vamos conhecer as fórmulas mais comuns do trapézio irregular
+        que se relacionam com as bases e a altura. Além disso, aprenderemos a
+        calcular o comprimento das bases e a altura usando essas fórmulas.
+      </p>
+      <h2 class="subtitulo-forma">
+        Fórmula para as bases e a altura de um trapézio irregular
+      </h2>
+      <p class="conteudo-forma">
+        As bases e a altura de um trapézio irregular são as medidas que definem
+        sua área e demais propriedades. Usando o comprimento das bases e da
+        altura, podemos calcular a área do trapézio. Da mesma forma, podemos
+        utilizar essas expressões para encontrar as bases e a altura.
+      </p>
+      <h2 class="subtitulo-forma">Fórmula das bases e altura usando área</h2>
+      <p class="conteudo-forma">
+        Se conhecermos a área de um trapézio irregular, podemos encontrar o
+        comprimento das bases e da altura usando as seguintes expressões:
+      </p>
+      <p class="conteudo-forma">A = ((b1 + b2) / 2) * h</p>
+      <p class="conteudo-forma">
+        onde, A é a área do trapézio, b1 e b2 são os comprimentos das bases e h é o comprimento da altura.
+      </p>
+    </div>
+    <div class="formula">
+      <img
+        class="imagem-formula"
+        src="imagens/image-removebg-preview (4).png"
+        alt="Trapezóide Irregular"
+      />
+      <h2 class="calculo">Calcular Área do Trapezóide Irregular</h2>
+      <label for="base1">Base 1:</label>
+      <input type="number" id="base1" placeholder="Insira a base 1" />
+      <label for="base2">Base 2:</label>
+      <input type="number" id="base2" placeholder="Insira a base 2" />
+      <label for="altura">Altura:</label>
+      <input
+        type="number"
+        id="altura"
+        placeholder="Insira a altura"
+      />
+      <button class="calculo-formula" onclick="calcularAreaTrapezoideIrregular()">
+        Calcular Área
+      </button>
+      <p id="resultado"></p>
+    </div>
+    <footer>
+      <p>© 2024 Aventura Geométrica</p>
+    </footer>
+    <script src="trapezoide.js"></script>
+  </body>
+</html>

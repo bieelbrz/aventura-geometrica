@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Circulo</title>
+    <link rel="icon" href="imagens/R-removebg-preview.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      
+      <h1 class="titulo">Aventura Geométrica</h1>
+      <nav>
+        <ul class="menu">
+          <li><a class="inicio" href="index.html">Inicio</a></li>
+          <li>
+            <a class="formas" href="index.html#formas-geometricas">Formas Geométricas</a>
+          </li>
+          <li><a class="sobre" href="sobre.html">Sobre</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div>
+      <h1 class="titulo-forma">Círculo</h1>
+      <h2 class="subtitulo-forma">Raio de um Círculo - Fórmula</h2>
+      <p class="conteudo-forma">
+        O raio de um círculo é igual à distância do centro do círculo a qualquer
+        ponto da circunferência. Normalmente, o raio é denotado com “R” ou com
+        “r“. Essa quantidade é muito importante na geometria e aparece em quase
+        todas as fórmulas relacionadas aos círculos. Usando o raio, podemos
+        calcular o comprimento do diâmetro, o perímetro e a área. Da mesma
+        forma, podemos usar qualquer um desses valores para calcular o
+        comprimento do raio.
+      </p>
+      <p class="conteudo-forma">
+        A seguir, conheceremos as fórmulas mais comuns do círculo que se
+        relacionam com o raio. Além disso, aprenderemos a calcular o comprimento
+        do raio usando essas fórmulas.
+      </p>
+      <h2 class="subtitulo-forma">Fórmula para o raio de um círculo</h2>
+      <p class="conteudo-forma">
+        Um raio é a medida da distância do centro de um círculo a qualquer ponto
+        da circunferência. Usando o comprimento do raio, podemos calcular o
+        comprimento do diâmetro, o perímetro e a área do círculo. Da mesma
+        forma, podemos usar essas expressões para encontrar o raio.
+      </p>
+      <h2 class="subtitulo-forma">Fórmula de raio usando diâmetro</h2>
+      <p class="conteudo-forma">
+        Se tivermos o comprimento do diâmetro de um círculo, podemos encontrar
+        seu raio usando a seguinte expressão:
+      </p>
+      <p class="conteudo-forma">d = 2r</p>
+      <p class="conteudo-forma">
+        onde, d é o comprimento do diâmetro e r é o comprimento do raio.
+      </p>
+      <h2 class="subtitulo-forma">Fórmula de raio usando circunfêrencia</h2>
+      <p class="conteudo-forma">
+        Se conhecermos a circufêrencia, podemos encontrar o comprimento do raio
+        de um círculo usando a seguinte fórmula:
+      </p>
+      <p class="conteudo-forma">C = 2πr</p>
+      <p class="conteudo-forma">onde, C é a circunferência e r é o raio.</p>
+      <h2 class="subtitulo-forma">Fórmula de raio usando área</h2>
+      <p class="conteudo-forma">
+        Podemos usar a área para calcular o raio usando a seguinte expressão:
+      </p>
+      <p class="conteudo-forma">A = πr²</p>
+      <p class="conteudo-forma">onde, A é a área do círculo e r é o raio.</p>
+    </div>
+    <div class="formula">
+      <img class="imagem-formula" src="imagens/R-removebg-preview.png" alt="Círculo" />
+      <h2 class="calculo">Calcular Área do Círculo</h2>
+      <label for="radius">Raio do Circulo:</label>
+      <input type="number" id="radius" placeholder="Insira o raio" />
+      <button class="calculo-formula" onclick="calculateArea()">Calcular Área</button>
+      <p id="result"></p>
+    </div>
+    <footer>
+      <p>© 2024 Aventura Geométrica</p>
+    </footer>
+    <script src="circulo.js"></script>
+  </body>
+</html>

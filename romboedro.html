@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Romboedro</title>
+    <link rel="icon" href="imagens/image-removebg-preview (3).png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="titulo">Aventura Geométrica</h1>
+      <nav>
+        <ul class="menu">
+          <li><a class="inicio" href="index.html">Inicio</a></li>
+          <li>
+            <a class="formas" href="index.html#formas-geometricas"
+              >Formas Geométricas</a
+            >
+          </li>
+          <li><a class="sobre" href="sobre.html">Sobre</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div>
+      <h1 class="titulo-forma">Romboedro</h1>
+      <h2 class="subtitulo-forma">Lado de um Romboedro - Fórmula</h2>
+      <p class="conteudo-forma">
+        O lado de um romboedro é a medida da distância de um dos seus vértices
+        ao vértice oposto. Essa medida é fundamental na geometria e é utilizada
+        em diversas fórmulas relacionadas aos romboedros. Geralmente, o lado é
+        representado pela letra "l". Podemos usar o lado para calcular o volume,
+        a área da superfície e a diagonal do romboedro. Da mesma forma, podemos
+        utilizar esses valores para calcular o comprimento do lado.
+      </p>
+      <p class="conteudo-forma">
+        A seguir, vamos conhecer as fórmulas mais comuns do romboedro que se
+        relacionam com o lado. Além disso, aprenderemos a calcular o comprimento
+        do lado usando essas fórmulas.
+      </p>
+      <h2 class="subtitulo-forma">Fórmula para o lado de um romboedro</h2>
+      <p class="conteudo-forma">
+        O lado de um romboedro é a medida da distância de um dos seus vértices
+        ao vértice oposto. Usando o comprimento do lado, podemos calcular o
+        volume, a área da superfície e a diagonal do romboedro. Da mesma forma,
+        podemos utilizar essas expressões para encontrar o lado.
+      </p>
+      <h2 class="subtitulo-forma">Fórmula de lado usando volume</h2>
+      <p class="conteudo-forma">
+        Se tivermos o volume de um romboedro, podemos encontrar o comprimento do
+        lado usando a seguinte expressão:
+      </p>
+      <p class="conteudo-forma">V = l³</p>
+      <p class="conteudo-forma">
+        onde, V é o volume e l é o comprimento do lado.
+      </p>
+      <h2 class="subtitulo-forma">Fórmula de lado usando área da superfície</h2>
+      <p class="conteudo-forma">
+        Se conhecermos a área da superfície de um romboedro, podemos encontrar o
+        comprimento do lado usando a seguinte fórmula:
+      </p>
+      <p class="conteudo-forma">A = 4l²</p>
+      <p class="conteudo-forma">
+        onde, A é a área da superfície e l é o comprimento do lado.
+      </p>
+      <h2 class="subtitulo-forma">Fórmula do lado usando diagonal</h2>
+      <p class="conteudo-forma">
+        Podemos usar a diagonal para calcular o lado usando a seguinte expressão:
+      </p>
+      <p class="conteudo-forma">d = √3l</p>
+      <p class="conteudo-forma">
+        onde, d é a diagonal e l é o comprimento do lado.
+      </p>
+    </div>
+    <div class="formula">
+      <img
+        class="imagem-formula"
+        src="imagens/image-removebg-preview (3).png"
+        alt="Romboedro"
+      />
+      <h2 class="calculo">Calcular Área do Romboedro</h2>
+      <label for="lado">Lado:</label>
+      <input type="number" id="lado" placeholder="Insira o lado" />
+      <label for="altura">Altura:</label>
+      <input type="number" id="altura" placeholder="Insira a altura" />
+      <label for="diagonalMaior">Diagonal Maior:</label>
+      <input type="number" id="diagonalMaior" placeholder="Insira a diagonal maior" />
+      <label for="diagonalMenor">Diagonal Menor:</label>
+      <input type="number" id="diagonalMenor" placeholder="Insira a diagonal menor" />
+      <button class="calculo-formula" onclick="calcularAreaRomboedro()">
+        Calcular Área
+      </button>
+      <p id="resultado"></p>
+    </div>
+    <footer>
+      <p>© 2024 Aventura Geométrica</p>
+    </footer>
+    <script src="romboedro.js"></script>
+  </body>
+</html>

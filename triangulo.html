@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Triânguo</title>
+    <link rel="icon" href="imagens/OIP-removebg-preview (1).png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="titulo">Aventura Geométrica</h1>
+      <nav>
+        <ul class="menu">
+          <li><a class="inicio" href="index.html">Inicio</a></li>
+          <li>
+            <a class="formas" href="index.html#formas-geometricas"
+              >Formas Geométricas</a
+            >
+          </li>
+          <li><a class="sobre" href="sobre.html">Sobre</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div>
+      <h1 class="titulo-forma">Triângulo</h1>
+      <h2 class="subtitulo-forma">Base de um Triângulo - Fórmula</h2>
+      <p class="conteudo-forma">
+        A base de um triângulo é um dos lados do triângulo sobre o qual a altura
+        é medida. É um elemento fundamental na geometria e é utilizado em várias
+        fórmulas relacionadas aos triângulos. Normalmente, a base é representada
+        pela letra "b". Podemos usar a base para calcular a área do triângulo,
+        além de ser utilizada em outras expressões para encontrar medidas
+        relacionadas ao triângulo.
+      </p>
+      <p class="conteudo-forma">
+        A seguir, vamos conhecer as fórmulas mais comuns do triângulo que se
+        relacionam com a base. Além disso, aprenderemos a calcular o comprimento
+        da base usando essas fórmulas.
+      </p>
+      <h2 class="subtitulo-forma">Fórmula para a base de um triângulo</h2>
+      <p class="conteudo-forma">
+        A base de um triângulo é um dos lados do triângulo sobre o qual a altura
+        é medida. Usando o comprimento da base, podemos calcular a área do
+        triângulo, bem como outras medidas relacionadas ao triângulo. Da mesma
+        forma, podemos utilizar essas expressões para encontrar a base.
+      </p>
+      <h2 class="subtitulo-forma">Fórmula da base usando altura</h2>
+      <p class="conteudo-forma">
+        Se tivermos a altura de um triângulo, podemos encontrar o comprimento da base usando a seguinte expressão:
+      </p>
+      <p class="conteudo-forma">A = b*h/2</p>
+      <p class="conteudo-forma">
+        onde, P é o perímetro, e a, b, e c são os comprimentos dos lados do triângulo.
+      </p>
+      <h2 class="subtitulo-forma">Fórmula da base usando área</h2>
+      <p class="conteudo-forma">
+        Podemos usar a área para calcular a base usando a seguinte expressão:
+      </p>
+      <p class="conteudo-forma">A = √2 * A * h</p>
+      <p class="conteudo-forma">
+        onde, A é a área do triângulo e h é a altura.
+      </p>
+    </div>
+    <div class="formula">
+      <img
+        class="imagem-formula"
+        src="imagens/OIP-removebg-preview (1).png"
+        alt="Triângulo"
+      />
+      <h2 class="calculo">Calcular Área do Triângulo</h2>
+      <label for="base">Base do Triângulo:</label>
+      <input type="number" id="base" placeholder="Insira a base" />
+
+      <label for="altura">Altura do Triângulo:</label>
+      <input type="number" id="altura" placeholder="Insira a altura"/>
+      <button class="calculo-formula" onclick="calcularAreaTriangulo()">
+        Calcular Área
+      </button>
+      <p id="resultadot"></p>
+    </div>
+    <footer>
+      <p>© 2024 Aventura Geométrica</p>
+    </footer>
+    <script src="triangulo.js"></script>
+  </body>
+</html>
